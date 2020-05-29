@@ -1,0 +1,89 @@
+
+.tabs-style {
+    a:visited {
+        border: 1px solid black;
+        outline: none;
+    }
+    a{
+      outline: none !important;
+   }
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show > .nav-link {
+        background: transparent;
+        border: none;
+        min-width: 200px;
+        outline: none;
+        color:white;
+    }
+    .tab {
+        //min-height:50px;
+        width: 100%;
+        padding: 25px;
+        font-family: sans-serif;
+        color: #444;
+        background-color: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    }
+    .BUTTON_YLW {
+        background: #9FACE6;
+        background-image: -webkit-linear-gradient(top, #9FACE6, #74EBD5);
+        background-image: -moz-linear-gradient(top, #9FACE6, #74EBD5);
+        background-image: -ms-linear-gradient(top, #9FACE6, #74EBD5);
+        background-image: -o-linear-gradient(top, #9FACE6, #74EBD5);
+        background-image: linear-gradient(to bottom, #9FACE6, #74EBD5);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: Open Sans;
+
+        // padding: 40px;
+        box-shadow: 1px 1px 20px 0 #000000;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        text-shadow: 1px 1px 20px #000000;
+        border: solid #9FACE6 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+    }
+    .BUTTON_YLW:hover {
+        border: solid rgb(103, 212, 192) 1px;
+        background: #74EBD5;
+
+        background-image: -webkit-linear-gradient(top, #74EBD5, rgb(103, 212, 192));
+        background-image: -moz-linear-gradient(top, #74EBD5, rgb(103, 212, 192));
+        background-image: -ms-linear-gradient(top, #74EBD5, rgb(103, 212, 192));
+        background-image: -o-linear-gradient(top, #74EBD5, rgb(103, 212, 192));
+        background-image: linear-gradient(to bottom, #74EBD5, rgb(103, 212, 192));
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    ul.inline {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 0;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-start: 0;
+        li {
+            display: inline-block;
+            margin-left: 0;
+            padding: 10px;
+            border-bottom: 2px solid #eee;
+            transition: all 0.5s;
+            font-family: sans-serif;
+            font-weight: 300;
+            cursor: pointer;
+            color: #aaa;
+            &.selected {
+                background-color: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+            }
+        }
+    }
+}
