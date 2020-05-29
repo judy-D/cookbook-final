@@ -1,3 +1,5 @@
+This project was developed using ReactJS and Firebase. The URL: https://cookbook-final.web.app/.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
