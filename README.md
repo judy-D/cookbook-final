@@ -2,7 +2,7 @@ This project was developed using ReactJS and Firebase. The URL: https://cookbook
 
 This is a simple project, the user can:
 
-1- add new recipes with name, description, and images(Note: name of the image should not contain special character for security reasons).
+1- add new recipes with name, description, and images (Note: name of the image should not contain special character for security reasons).
 2- delete old recipes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
