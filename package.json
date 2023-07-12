@@ -35,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "firestore-export-import": "^0.6.0"
+    "firestore-export-import": "^1.3.6"
   }
 }
